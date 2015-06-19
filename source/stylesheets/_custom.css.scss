@@ -8,6 +8,7 @@
   min-height: 250px;
   padding-left: 0;
   padding-right: 0;
+  cursor: pointer;
   p{
     position: absolute;
     bottom: 0;
@@ -111,4 +112,25 @@
 .royal{
   background-color: #1788b1;
   color: white;
+}
+
+#copied-alert{
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: none;
+  .copy-text{
+    background-color: rgba(255,255,255,0.5);
+      h1{
+        font-size: 80px;
+        color: white;
+        text-shadow: 3px 3px 0px rgba(0,0,0,0.5);;
+      }
+    }
 }
