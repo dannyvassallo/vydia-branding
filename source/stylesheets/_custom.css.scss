@@ -1,0 +1,114 @@
+.max-w{
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+.color{
+  min-height: 250px;
+  padding-left: 0;
+  padding-right: 0;
+  p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-family: 'montserrat', 'arial';
+    font-size: 20px;
+  }
+}
+.btn.btn-link.navbar-btn{
+  &:hover{
+    color: #969696;
+  }
+}
+.first-grid{
+  margin-top: 80px;
+}
+// colors
+.white{
+  background-color: white;
+}
+.whitesmoke{
+  background-color: #f5f5f5;
+}
+.smoke{
+  background-color: #eeeeee;
+}
+.cascade{
+  background-color: #ebebeb;
+}
+.gray-cloud{
+  background-color: #e6e6e6;
+}
+.white-stone{
+  background-color: #e5e5e5;
+}
+.gull-wing{
+  background-color: #e0e0e0;
+}
+.pewter{
+  background-color: #cccccc;
+}
+.cliffs{
+  background-color: #c4c4c4;
+}
+.steel-wool{
+  background-color: #999999;
+}
+.whale{
+  background-color: #969696;
+}
+.overcoat{
+  background-color: #8c8c8c;
+}
+.stormy-sky{
+  background-color: #555555;
+  color: white;
+}
+.shadow{
+  background-color: #191919;
+  color: white;
+}
+.dark-shadow{
+  background-color: #181818;
+  color: white
+}
+.black{
+  background-color: #000000;
+  color: white;
+}
+.red-violet{
+  background-color: #d313a8;
+  color: white;
+}
+.berry{
+  background-color: #BC1196;
+  color: white;
+}
+.wine{
+  background-color: #6c0933;
+  color: white;
+}
+.allure{
+  background-color: #a9e8ff;
+}
+.breeze{
+  background-color: #69d7ff;
+}
+.sea{
+  background-color: #3bbeee;
+}
+.sky{
+  background-color: #35a6d0;
+  color: white;
+}
+.brilliant{
+  background-color: #33a2ca;
+  color: white;
+}
+.royal{
+  background-color: #1788b1;
+  color: white;
+}

@@ -9,10 +9,12 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
     <!-- Stylesheets -->
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Montserrat:400,700|Raleway:400,100,200,300' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag "all" %>
   </head>
 
   <body class="<%= page_classes %>">
+    <%= partial "partials/navbar" %>
     <%= yield %>
 
     <!-- Javascripts -->
