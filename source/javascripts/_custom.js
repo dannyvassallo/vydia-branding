@@ -1,9 +1,11 @@
 // Hex to RGB
-function cutHex(h) {return (h.charAt(0)=="#") ? h.substring(1,7):h}
-function hexToRgb(h)
-{
-    var r = parseInt((cutHex(h)).substring(0,2),16), g = ((cutHex(h)).substring(2,4),16), b = parseInt((cutHex(h)).substring(4,6),16)
-    return "rgb(" + r +', '+ b + ', ' + b + ")";
+function hexToRgb(hex) {
+    var bigint = parseInt(hex, 16);
+    var r = (bigint >> 16) & 255;
+    var g = (bigint >> 8) & 255;
+    var b = bigint & 255;
+
+    return "rgb(" + r + "," + g + "," + b + ")";
 }
 
 // RGB to Hex
@@ -49,7 +51,7 @@ $(function(){
     if($('#hex2rgb').val() == 'rgb'){
       $('.color').each(function(){
         var hex = $(this).data("clipboard-text");
-        var rgb = hexToRgb(hex);
+        var rgb = hexToRgb(hex.replace('#',''));
         $(this).attr("data-clipboard-text", rgb);
       });
     } else if ($('#hex2rgb').val() == 'hex'){
