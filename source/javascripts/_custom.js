@@ -52,7 +52,7 @@ $(function(){
         var rgb = hexToRgb(hex);
         $(this).attr("data-clipboard-text", rgb);
       });
-    } else {
+    } else if ($('#hex2rgb').val() == 'hex'){
       $('.color').each(function(){
         var rgb = $(this).attr("data-clipboard-text");
         $(this).attr("data-clipboard-text", rgb2hex(rgb));
