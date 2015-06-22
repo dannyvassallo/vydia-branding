@@ -24,10 +24,41 @@
     color: #969696;
   }
 }
+#copied-alert{
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: none;
+  .copy-text{
+    background-color: rgba(255,255,255,0.5);
+      h1{
+        font-size: 80px;
+        color: white;
+        text-shadow: 3px 3px 0px rgba(0,0,0,0.5);;
+      }
+    }
+}
+
+#hex2rgb{
+  font-size: 20px;
+}
 .switcher{
   margin-top: 80px;
 }
-// colors
+
+// ************************ //
+// ************************ //
+// ************************ //
+//         colors
+// ************************ //
+// ************************ //
+// ************************ //
 .white{
   background-color: white;
 }
@@ -74,7 +105,7 @@
 }
 .dark-shadow{
   background-color: #181818;
-  color: white
+  color: white;
 }
 .black{
   background-color: #000000;
@@ -251,27 +282,32 @@
   background-color: #000bac;
   color: white;
 }
-#copied-alert{
-  position: fixed;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: black;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  display: none;
-  .copy-text{
-    background-color: rgba(255,255,255,0.5);
-      h1{
-        font-size: 80px;
-        color: white;
-        text-shadow: 3px 3px 0px rgba(0,0,0,0.5);;
-      }
-    }
+.vydia-yellow{
+  background-color: #fcee45;
 }
-
-#hex2rgb{
-  font-size: 20px;
+.vydia-light-blue{
+  background-color: #42c3dd;
+}
+.vydia-blue{
+  background-color: #41beed;
+}
+.vydia-dark-blue{
+  background-color: #3a6fb6;
+  color: white;
+}
+.vydia-red{
+  background-color: #eb3736;
+  color: white;
+}
+.vydia-dark-red{
+  background-color: #6c0d34;
+  color: white;
+}
+.vydia-dark-pink{
+  background-color: #c33993;
+  color: white;
+}
+.vydia-pink{
+  background-color: #e04697;
+  color: white;
 }
