@@ -46,6 +46,7 @@ end
 #     "Helping"
 #   end
 # end
+activate :syntax
 
 set :css_dir, 'stylesheets'
 

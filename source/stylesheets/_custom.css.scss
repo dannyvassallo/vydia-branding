@@ -1,0 +1,456 @@
+// Heading
+.image-heading{
+  margin-top: 100px;
+}
+// Various
+.full-w{
+  width: 100%;
+}
+.max-w{
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+.color{
+  min-height: 250px;
+  padding-left: 0;
+  padding-right: 0;
+  cursor: pointer;
+  p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-family: 'montserrat', 'arial';
+    font-size: 20px;
+  }
+}
+.logos, .icons{
+  padding: 2px !important;
+  p{
+    background-color: #d313a8;
+    color: white;
+    font-family: 'montserrat', 'arial';
+    font-weight: bold;
+  }
+}
+.icons{
+  pre{
+    height: 60px;
+    overflow: hidden;
+  }
+  i{
+    cursor: pointer;
+    font-size: 100px;
+    color: black;
+    margin-bottom: 10px;
+  }
+}
+.clients{
+  min-height: 191px;
+  p{
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+    right: 2px;
+  }
+}
+.btn.btn-link.navbar-btn{
+  &:hover{
+    color: #969696;
+  }
+}
+#copied-alert, #copied-alert-2{
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: none;
+  .copy-text{
+    background-color: rgba(255,255,255,0.5);
+      h1{
+        font-size: 80px;
+      }
+    }
+}
+#copied-alert{
+  background-color: black;
+  .copy-text h1{
+    color: white;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.5);
+  }
+}
+#copied-alert-2{
+  background-color: white;
+  .copy-text h1{
+    color: #41beed !important;
+    i, i:hover, i:focus{
+      color: #41beed !important;
+    }
+  }
+}
+#hex2rgb{
+  font-size: 20px;
+}
+.switcher{
+  margin-top: 80px;
+}
+.btn-default{
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #41beed;
+  margin: 20px auto;
+  min-width: 70px;
+  color: white;
+  &:hover{
+  background-color: #3a6fb6 !important;
+  color: white !important;
+  }
+  &:active, &:focus{
+  background-color: #3a6fb6 !important;
+  color: white !important;
+  }
+}
+.small{
+  margin: 5px auto !important;
+}
+.no-style{
+  list-style: none;
+  padding-left: 0 !important;
+}
+.font{
+  min-height: 400px;
+  label{
+    text-align: left;
+    width: 100%;
+  }
+  .font-code{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pre{
+      margin-left: 2px !important;
+      margin-right: 2px !important;
+    }
+  }
+}
+.bottom-code{
+  margin-top: 40px;
+}
+// ************************ //
+// ************************ //
+// ************************ //
+//         colors
+// ************************ //
+// ************************ //
+// ************************ //
+.white{
+  background-color: white;
+}
+.whitesmoke{
+  background-color: #f5f5f5;
+}
+.smoke{
+  background-color: #eeeeee;
+}
+.cascade{
+  background-color: #ebebeb;
+}
+.gray-cloud{
+  background-color: #e6e6e6;
+}
+.white-stone{
+  background-color: #e5e5e5;
+}
+.gull-wing{
+  background-color: #e0e0e0;
+}
+.pewter{
+  background-color: #cccccc;
+}
+.cliffs{
+  background-color: #c4c4c4;
+}
+.steel-wool{
+  background-color: #999999;
+}
+.whale{
+  background-color: #969696;
+}
+.overcoat{
+  background-color: #8c8c8c;
+}
+.stormy-sky{
+  background-color: #555555;
+  color: white;
+}
+.shadow{
+  background-color: #191919;
+  color: white;
+}
+.dark-shadow{
+  background-color: #181818;
+  color: white;
+}
+.black{
+  background-color: #000000;
+  color: white;
+}
+.red-violet{
+  background-color: #d313a8;
+  color: white;
+}
+.berry{
+  background-color: #BC1196;
+  color: white;
+}
+.wine{
+  background-color: #6c0933;
+  color: white;
+}
+.allure{
+  background-color: #a9e8ff;
+}
+.breeze{
+  background-color: #69d7ff;
+}
+.sea{
+  background-color: #3bbeee;
+}
+.sky{
+  background-color: #35a6d0;
+  color: white;
+}
+.brilliant{
+  background-color: #33a2ca;
+  color: white;
+}
+.royal{
+  background-color: #1788b1;
+  color: white;
+}
+.mellow{
+  background-color: #fbe8f6;
+}
+.elephant{
+  background-color: #fcdede;
+}
+.easter{
+  background-color: #eb8ad2;
+}
+.hot-pink{
+  background-color: #f11fe1;
+  color: white;
+}
+.crushed{
+  background-color: #d714a4;
+  color: white;
+}
+.raspberry{
+  background-color: #cf1aa7;
+  color: white;
+}
+.flush{
+  background-color: #cc139c;
+  color: white;
+}
+.purple{
+  background-color: #6c0a52;
+  color: white;
+}
+.blush{
+  background-color: #ff2f65;
+  color: white;
+}
+.rose{
+  background-color: #f22d60;
+  color: white;
+}
+.pale-rose{
+  background-color: #d92d58;
+  color: white;
+}
+.bright-red{
+  background-color: #ee0000;
+  color: white;
+}
+.red{
+  background-color: #d70206;
+  color: white;
+}
+.dark-red{
+  background-color: #cd201f;
+  color: white;
+}
+.canvas{
+  background-color: #fcf6dc;
+}
+.sandstone{
+  background-color: #fffbac;
+}
+.khaki{
+  background-color: #eeebac;
+}
+.wet-sand{
+  background-color: #e9d991;
+}
+.beach{
+  background-color: #e9d991;
+}
+.shopping-bag{
+  background-color: #baae74;
+}
+.yellow{
+  background-color: #ffec01;
+}
+.mustard{
+  background-color: #f2e001;
+}
+.hot-mustard{
+  background-color: #e6d401;
+}
+.algae{
+  background-color: #b6b600;
+}
+.marsh{
+  background-color: #adad00;
+}
+.peach{
+  background-color: #f1a744;
+}
+.mint{
+  background-color: #47d87e;
+}
+.sea-foam{
+  background-color: #47c8a1;
+}
+.double-mint{
+  background-color: #43cd78;
+}
+.lawn{
+  background-color: #3cb86b;
+  color: white;
+}
+.crystal{
+  background-color: #e2f0ff;
+}
+.baby{
+  background-color: #90ddf3;
+}
+.pool{
+  background-color: #64cfee;
+}
+.hazy{
+  background-color: #5ac1ef;
+}
+.blue-eyes{
+  background-color: #27b8ed;
+  color: white;
+}
+.clear-sea{
+  background-color: #21bae7;
+  color: white;
+}
+.ocean{
+  background-color: #1fb1db;
+  color: white;
+}
+.blue-raspberry{
+  background-color: #3b7796;
+  color: white;
+}
+.midnight{
+  background-color: #082f3a;
+  color: white;
+}
+.blue{
+  background-color: #000bac;
+  color: white;
+}
+.vydia-yellow{
+  background-color: #fcee45;
+}
+.vydia-light-blue{
+  background-color: #42c3dd;
+}
+.vydia-blue{
+  background-color: #41beed;
+}
+.vydia-dark-blue{
+  background-color: #3a6fb6;
+  color: white;
+}
+.vydia-red{
+  background-color: #eb3736;
+  color: white;
+}
+.vydia-dark-red{
+  background-color: #6c0d34;
+  color: white;
+}
+.vydia-dark-pink{
+  background-color: #c33993;
+  color: white;
+}
+.vydia-pink{
+  background-color: #e04697;
+  color: white;
+}
+// font
+.ms-400{
+  font-weight: 400 !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.ms-700{
+  font-weight: 700 !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.source{
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+.ssp-200{
+  font-weight: 200 !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+.ssp-300{
+  font-weight: 300 !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+.ssp-400{
+  font-weight: 400 !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+.ssp-600{
+  font-weight: 600 !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+.ssp-700{
+  font-weight: 700 !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+.raleway{
+  font-family: 'Raleway', sans-serif !important;
+}
+.rw-100{
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 100 !important;
+}
+.rw-200{
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 200 !important;
+}
+.rw-300{
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 300 !important;
+}
+.rw-400{
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 400 !important;
+}

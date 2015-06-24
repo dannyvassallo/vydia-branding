@@ -5,16 +5,31 @@
 
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-
+    <meta name="viewport" content="width=device-width">
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title || "Vydia Brand Guidelines" %></title>
     <!-- Stylesheets -->
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Montserrat:400,700|Raleway:400,100,200,300' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag "all" %>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   </head>
 
   <body class="<%= page_classes %>">
+    <%= partial "partials/navbar" %>
+    <%= partial "partials/header" %>
+    <%= partial "partials/logo" %>
+    <%= partial "partials/fonts" %>
+    <!-- Switcher -->
     <%= yield %>
-
+    <!-- End Switcher -->
+    <%= partial "partials/logo-colors" %>
+    <%= partial "partials/first-grid" %>
+    <%= partial "partials/second-grid" %>
+    <%= partial "partials/sass-colors" %>
+    <%= partial "partials/swatches" %>
+    <%= partial "partials/partner-logos" %>
+    <%= partial "partials/notable-clients" %>
+    <%= partial "partials/icons" %>
     <!-- Javascripts -->
     <%= javascript_include_tag  "all" %>
   </body>
