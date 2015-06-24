@@ -56,8 +56,17 @@ function rgb2hex(rgb){
   ("0" + parseInt(rgb[3],10).toString(16)).slice(-2);
 }
 
-// Copy Stuff
 $(function(){
+  // Icon hover
+  $('.fa').mouseenter(function(){
+    $(this).css('color','#41beed')
+  }).mouseleave(function(){
+    $(this).css('color','black')
+  });
+
+
+  // Copy Stuff
+  // colors
   $('.color').each(function(){
     var client = new ZeroClipboard( $(this) );
 
@@ -80,6 +89,24 @@ $(function(){
       } );
     } );
   });
+
+// icons
+$('.icons i').each(function(){
+    var client = new ZeroClipboard( $(this) );
+
+    client.on( "ready", function( readyEvent ) {
+      // console.log( "ZeroClipboard SWF is ready!" );
+
+      client.on( "aftercopy", function( event ) {
+        // `this` === `client`
+        // `event.target` === the element that was clicked
+        var icon = event.data["text/plain"];
+        $('#copied-alert-2').fadeIn();
+        $('#copied-alert-2').delay( 1500 ).fadeOut();
+      } );
+    } );
+  });
+
 });
 
 // Center Copy text
