@@ -89,7 +89,10 @@
 #copied-alert-2{
   background-color: white;
   .copy-text h1{
-    color: #41beed;
+    color: #41beed !important;
+    i, i:hover, i:focus{
+      color: #41beed !important;
+    }
   }
 }
 #hex2rgb{
@@ -120,6 +123,26 @@
 .no-style{
   list-style: none;
   padding-left: 0 !important;
+}
+.font{
+  min-height: 400px;
+  label{
+    text-align: left;
+    width: 100%;
+  }
+  .font-code{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pre{
+      margin-left: 2px !important;
+      margin-right: 2px !important;
+    }
+  }
+}
+.bottom-code{
+  margin-top: 40px;
 }
 // ************************ //
 // ************************ //
