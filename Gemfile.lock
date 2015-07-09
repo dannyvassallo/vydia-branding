@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:/nickpassarella/middleman-gibberish.git
+  remote: git@github.com:/dannyvassallo/middleman-gibberish.git
   revision: a7cfb753e10a167669f2152ab2e00df6baef36b2
   specs:
     middleman-gibberish (0.7.0)
