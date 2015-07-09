@@ -45,3 +45,7 @@ To deploy a non-master branch use:
 ```shell
 git push heroku MY-NEW-BRANCH:master
 ```
+
+Changing the password:
+
+Rename .env.example to .env and change "yourpassword" to any password you'd like to use.
