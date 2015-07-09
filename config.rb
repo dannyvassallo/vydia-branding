@@ -28,6 +28,25 @@
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
+
+# activate the extenstion
+
+  activate :gibberish do |gibberish|
+  # set the default password
+
+    gibberish.password = 'gibberish'
+
+  # encrypt a page with the default password
+
+    gibberish.encrypt '/index.html'
+
+  # encrypt a page with a different password
+
+    gibberish.encrypt 'bar.html', 'p@55w0rd'
+
+  end
+
+
 ###
 # Helpers
 ###
