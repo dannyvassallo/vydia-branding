@@ -22,3 +22,6 @@ gem "jquery-middleman"
 gem "middleman-syntax"
 
 gem "middleman-gibberish", :github => "dannyvassallo/middleman-gibberish", :branch => 'master'
+
+gem 'middleman-dotenv', '~> 1.0'
+
