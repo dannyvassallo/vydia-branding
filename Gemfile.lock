@@ -1,6 +1,7 @@
 GIT
-  remote: git@github.com:/dannyvassallo/middleman-gibberish.git
+  remote: git://github.com/dannyvassallo/middleman-gibberish.git
   revision: a7cfb753e10a167669f2152ab2e00df6baef36b2
+  branch: master
   specs:
     middleman-gibberish (0.7.0)
       gibberish (= 2.0)
