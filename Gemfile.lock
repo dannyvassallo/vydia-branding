@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dannyvassallo/middleman-gibberish.git
-  revision: a7cfb753e10a167669f2152ab2e00df6baef36b2
+  revision: d8ee32a3d9513ee6d5c341c61d9dbb70e71a40d3
   branch: master
   specs:
     middleman-gibberish (0.7.0)
