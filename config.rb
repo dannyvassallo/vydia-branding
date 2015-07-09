@@ -29,7 +29,7 @@
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
 
-# activate the extenstion
+# activate the gibberish password extenstion
 
   activate :gibberish do |gibberish|
   # set the default password
@@ -79,6 +79,8 @@ set :fonts_dir,  'fonts-folder'
 
 # Build-specific configuration
 configure :build do
+
+  # activate dotenv on build
   activate :dotenv
   # For example, change the Compass output style for deployment
   activate :minify_css
