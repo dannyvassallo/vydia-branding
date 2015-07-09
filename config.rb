@@ -34,7 +34,7 @@
   activate :gibberish do |gibberish|
   # set the default password
 
-    gibberish.password = ENV['GIBBERISH_PASSWORD']
+    gibberish.password = 'gibberish'
 
   # encrypt a page with the default password
 
