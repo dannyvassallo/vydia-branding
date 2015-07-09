@@ -21,6 +21,4 @@ gem "jquery-middleman"
 
 gem "middleman-syntax"
 
-gem "gibberish"
-
-gem "middleman-gibberish"
+gem "middleman-gibberish", :git => "git@github.com:/nickpassarella/middleman-gibberish.git"
