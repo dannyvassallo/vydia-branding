@@ -143,6 +143,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   font-awesome-middleman
+  gibberish
   jquery-middleman
   middleman (~> 3.3.12)
   middleman-gibberish

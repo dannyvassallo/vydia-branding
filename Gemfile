@@ -21,4 +21,6 @@ gem "jquery-middleman"
 
 gem "middleman-syntax"
 
+gem "gibberish"
+
 gem "middleman-gibberish"
