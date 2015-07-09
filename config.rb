@@ -79,6 +79,7 @@ set :fonts_dir,  'fonts-folder'
 
 # Build-specific configuration
 configure :build do
+  activate :dotenv
   # For example, change the Compass output style for deployment
   activate :minify_css
 
