@@ -20,3 +20,5 @@ gem "bootstrap-sass"
 gem "jquery-middleman"
 
 gem "middleman-syntax"
+
+gem "middleman-gibberish", :github => "dannyvassallo/middleman-gibberish", :branch => 'master'
