@@ -38,11 +38,11 @@
 
   # encrypt a page with the default password
 
-    gibberish.encrypt '/'
+    gibberish.encrypt '/index.html'
 
   # encrypt a page with a different password
 
-    gibberish.encrypt 'bar.html', 'p@55w0rd'
+    # gibberish.encrypt 'bar.html', 'p@55w0rd'
 
   end
 
