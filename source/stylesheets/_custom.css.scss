@@ -491,3 +491,18 @@ blockquote:after {
   margin-left: 0.25em;
   vertical-align: -0.4em;
 }
+
+#scroll-up{
+  position: fixed;
+  color: #000;
+  bottom: 90px;
+  right: 20px;
+  z-index: 9998;
+  font-size: 70px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+  border: 2px solid #3bbeee;
+  opacity: 0.7;
+}
