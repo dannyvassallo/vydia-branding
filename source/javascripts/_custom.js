@@ -227,3 +227,20 @@ $(function(){
     }
   });
 });
+
+// Scroll to top
+
+$(document).ready( function() {
+    $("#scroll-up").hide(); //hide your div initially
+    $("#scroll-up").on('click', function(){
+      $('body').animate({scrollTop: "200" });
+    });
+    var topOfOthDiv = $("#how-to").offset().top;
+    $(window).scroll(function() {
+        if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+            $("#scroll-up").fadeIn(); //reached the desired point -- show div
+        } else {
+            $("#scroll-up").fadeOut();
+        }
+    });
+});

@@ -15,6 +15,10 @@
   </head>
 
   <body class="<%= page_classes %>">
+    
+    <div id="scroll-up" class="text-center">
+        <i class="fa fa-chevron-circle-up"></i>
+    </div>
     <%= partial "partials/navbar" %>
     <%= partial "partials/header" %>
     <%= partial "partials/nav-tree" %>
@@ -36,5 +40,6 @@
     <%= partial "partials/footer" %>
     <!-- Javascripts -->
     <%= javascript_include_tag  "all" %>
+
   </body>
 </html>
